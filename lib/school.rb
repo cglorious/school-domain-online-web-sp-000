@@ -27,9 +27,6 @@ class School
   end
 
   def sort
-  #iterate through the hash
-  #sort the value
-  #return the hash
     @roster.map do |key, value|
       sorted_roster = value.sort
       @roster[key] = sorted_roster
