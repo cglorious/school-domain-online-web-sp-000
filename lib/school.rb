@@ -18,4 +18,14 @@ class School
     @roster
   end
 
+  def grade(grade)
+    #iterate through the hash
+    #if the hash includes grade
+    #return the array (value)
+    @roster.each do |key, value|
+      if key == grade
+        return value
+      end
+  end
+
 end
