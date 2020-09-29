@@ -31,7 +31,8 @@ class School
   #sort the value
   #return the hash
     @roster.map do |key, value|
-      value.sort
+      sorted_roster = value.sort
+      @roster[key] << sorted_roster
     end
     @roster
   end
