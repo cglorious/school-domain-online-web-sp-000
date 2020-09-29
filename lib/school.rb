@@ -26,6 +26,7 @@ class School
       if key == grade
         return value
       end
+    end
   end
-
+  
 end
